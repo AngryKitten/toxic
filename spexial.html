@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>speXial</title>
+    <script>
+    var w = 40;
+    var h = 20;
+    var f = 12;
+
+    function exi() {
+        w += 10;
+        h += 5;
+        f += 2;
+        document.getElementById("exi").innerHTML = "<button onclick=\"exi();\" style=\"width:" + w + "px;height:" + h + "px;font-size:" + f + "px;\">eXi</button>";
+    }
+    </script>
+</head>
+
+<body>
+    <div align="center">
+        <div id="exi">
+            <button onclick="exi();" style="width:40px;height:20px;font-size:12px;">eXi</button>
+        </div>
+    </div>
+</body>
+
+</html>

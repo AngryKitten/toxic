@@ -1,0 +1,57 @@
+.selected {
+  border: 1px solid black;
+}
+
+#select {
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+#select-red {
+  color: red;
+  cursor: pointer;
+}
+
+#select-green {
+  color: green;
+  cursor: pointer;
+}
+
+#select-blue {
+  color: blue;
+  cursor: pointer;
+}
+
+#reset {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+#squares {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.square {
+  background-color: black;
+  display: inline-block;
+  float: left;
+  height: 50px;
+  width: 50px;
+}
+
+.square:hover {
+  background-color: gray;
+}
+
+.square-red {
+  background-color: red;
+}
+
+.square-green {
+  background-color: green;
+}
+
+.square-blue {
+  background-color: blue;
+}

@@ -1,0 +1,52 @@
+body {
+	background-color: yellow;
+	margin: 0;
+	padding: 0;
+}
+
+.sector {
+	display: inline-block;
+	float: left;
+	width: 34%;
+}
+
+.sector:first-child,
+.sector:last-child {
+	width: 33%;
+}
+
+.sector:first-child .draggable-element {
+	background-color: green;
+	color: blue;
+}
+
+.sector:last-child .draggable-element {
+	background-color: red;
+	color: green;
+}
+
+.drag-sector {
+	display: inline-block;
+	width: 100%;
+}
+
+.draggable-element {
+    background-color: blue;
+    color: red;
+    cursor: move;
+    display: inline-block;
+    font-weight: bold;
+    height: 50px;
+    line-height: 20px;
+    padding: 30px 5% 0 5%;
+    text-align: center;
+    width: 90%;
+}
+
+.new-draggable {
+	cursor: pointer;
+	display: inline-block;
+	padding: 10px 0;
+	text-align: center;
+	width: 100%;
+}

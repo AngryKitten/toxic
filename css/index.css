@@ -1,0 +1,55 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.link-list {
+	width: 100%;
+}
+
+.link-list div {
+	margin: 12px;
+}
+
+.link-list .cross {
+	background-color: green;
+	height: 4px;
+	margin: 36px;
+}
+
+.link-list .cross div {
+	color: red;
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	margin: -11px 0 0;
+	text-align: center;
+	text-shadow: 0 0 10px black;
+	width: 100%;
+}
+
+.link-list a {
+	background-color: blue;
+	border-radius: 6px;
+	color: white;
+	clear: both;
+	display: block;
+	height: 24px;
+	margin: 6px 0;
+	padding: 6px 0 2px;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+}
+
+.link-list a:hover {
+	background-color: lightblue;
+	color: floralwhite;
+}
+
+@media only screen and (min-width: 768px) {
+	.link-list {
+		margin: 0 auto;
+		width: 768px;
+	}
+} 
