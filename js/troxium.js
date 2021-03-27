@@ -20,20 +20,20 @@ function removeClick(id) {
 function checkFof() {
 	if (fof == 3) {
 		document.getElementById("hang").innerHTML =
-		`<div id='hang-side'>
-			<div class='hang-line'>|</div>
-			<div class='hang-line'>|</div>
-			<div class='hang-line'>|</div>
-			<div id='hang-person'>
-				<div id='hang-items'>
-					<div class='hang-item'>O</div>
-					<div class='hang-item'>\/\\\\</div>
-					<div class='hang-item'>\\\\</div>
-					<div class='hang-item'>&nbsp;``</div>
-				</div>
-			</div>
-		</div>
-		${document.getElementById("hang").innerHTML}`;
+		"<div id='hang-side'>" +
+			"<div class='hang-line'>|</div>" +
+			"<div class='hang-line'>|</div>" +
+			"<div class='hang-line'>|</div>" +
+			"<div id='hang-person'>" +
+				"<div id='hang-items'>" +
+					"<div class='hang-item'>O</div>" +
+					"<div class='hang-item'>\/\\\\</div>" +
+					"<div class='hang-item'>\\\\</div>" +
+					"<div class='hang-item'>&nbsp;``</div>" +
+				"</div>" +
+			"</div>" +
+		"</div>" +
+		document.getElementById("hang").innerHTML;
 		document.getElementById("outro").innerHTML = "help";
 	}
 }
